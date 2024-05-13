@@ -1,0 +1,16 @@
+.txt{
+   font-size: 10pt;
+}
+
+.img{
+   width: 300px;
+   margin: 10px;
+   border-radius: 15px;
+   box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+   -webkit-transition: all .9s ease-in;
+}
+
+img.img :hover{
+   background-position: 0px 0px;
+   background-size: 200px 200px;
+}

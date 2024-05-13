@@ -1,0 +1,35 @@
+
+.conteudo{
+   display: flex;
+   justify-content: space-between;
+}
+
+.compra{
+   display: flex;
+   float: right;
+   width: 650px;
+   height: 350px;
+   margin-top: 2%;
+   margin-right: 20px;
+}
+
+.conteiner{
+   width: 75%;
+   display: flex;
+}
+
+.ilustrar{
+   display: flex;
+   flex-wrap: wrap;
+   list-style-type: none;
+}
+
+.item{
+   flex-direction: column;
+   justify-content: center;
+   align-content: stretch; 
+}
+
+li .item :hover{
+   -webkit-transform: scale(1.5); 
+}
